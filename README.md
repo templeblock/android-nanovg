@@ -21,3 +21,4 @@ buildscript {
 
   * http://ph0b.com/new-android-studio-ndk-support/
   * http://ph0b.com/android-studio-gradle-and-ndk-integration/
+  * http://tools.android.com/tech-docs/new-build-system/gradle-experimental
