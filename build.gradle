@@ -31,6 +31,15 @@ model {
             CFlags.addAll(['-Wall'])
             cppFlags.add('-I' + file("src/main/jni/"))
         }
+        sources {
+            main {
+                jni {
+                    exportedHeaders {
+                        srcDir "src/main/jni/"
+                    }
+                }
+            }
+        }
         buildTypes {
             release {
                 minifyEnabled = false
