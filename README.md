@@ -4,7 +4,18 @@ https://github.com/memononen/nanovg
 
 Nanovg Android Library
 
-Under cunstruction using gradle experemental ndk build
+Under cunstruction using gradle experemental ndk build.
+
+```xml
+buildscript {
+    repositories {
+       jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle-experimental:0.7.0'
+    }
+}
+```
 
 # docs
 
