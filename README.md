@@ -2,7 +2,7 @@
 
 https://github.com/memononen/nanovg
 
-Nanovg Android Library
+NanoVG Android Library
 
 ```xml
 buildscript {
